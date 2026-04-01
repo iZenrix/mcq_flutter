@@ -1,0 +1,29 @@
+name: mcq_flutter
+description: "Flutter UI widgets for `mcq_engine`."
+version: 0.0.1
+homepage:
+topics:
+  - flutter
+  - quiz
+  - mcq
+  - education
+  - widgets
+
+environment:
+  sdk: ^3.11.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mcq_engine:
+    git:
+      url: https://github.com/iZenrix/mcq_engine.git
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:

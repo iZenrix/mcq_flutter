@@ -1,0 +1,4 @@
+enum McqPracticeDialogPhase {
+  answering,
+  review,
+}
